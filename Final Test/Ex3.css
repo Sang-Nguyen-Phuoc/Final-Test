@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary--color: #ffffff;
+    --text: #151B32; 
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--primary--color);
+    width: 1213px;   
+}
+
+
+.nav-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.search-box {
+    padding: 20px 100px 20px 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+    width: 250px;
+    background-image: url('https://cdn.iconscout.com/icon/premium/png-512-thumb/search-1891083-1603473.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+}
+
+.feature {
+    color: var(--text);
+    position: relative;
+}
+
+.new-user {
+    background-color: #849FFF;
+    width: 100%;
+    border: none;
+    padding: 16px;
+    border-radius: 10px;
+    text-align: center;
+    top: -15px;
+    cursor: pointer;
+}
+
+
+.descriptions {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.user-descriptions {
+    width: 25%;
+    display: flex;
+    position: relative;
+    gap: 20px;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.Name {
+   font-style: black;
+   font-size: 24px;
+   line-height: 30px;
+}
+
+.address {
+    font-size: 14px;
+    line-height: 30px;
+    font-style: medium;
+}
+
+.key-words {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.key-word {
+    width: 45%;
+    background-color: var(--primary--color);
+    border: 1px solid #516FD4;
+    padding: 1px;
+    font-size: 8px;
+    border-radius: 5px;
+    text-align: center;
+    color: #516FD4;
+
+}
