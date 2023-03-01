@@ -15,6 +15,11 @@ function isPrime(num) {
     const b = parseInt(document.getElementById("input-b").value);
   
     let sum = 0;
+    if (a > b) {
+      alert("A is greater than B");
+      return;
+    }
+
     for (let i = a; i <= b; i++) {
       if (isPrime(i)) {
         sum += i;
